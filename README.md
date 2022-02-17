@@ -1,12 +1,8 @@
 # basedockerphp
 Base docker e docker-compose para aplicações em php 7.4
 
-Ex para configuração do banco de dados no seu codigo local
+# ATENÇÃO!
+# O arquivo .env é único para cada ambiente! No seu pc, e no servidor de hospedagem.
+# Sendo assim, não deve ser rastreado pelo reposítório caso esteje usando, e deve ser adicionado na hospedagem manualmente.
 
-# para ambiente em produção altere para o $localhost de acordo com sua hospedagem.
-# Normalmente é 'localhost'.
-
-$localhost = 'db'; 
-$database  = 'nome_do_seu_banco_de_dados';
-$user_db   = 'root';
-$pass_db   = 'root';
+# NO arquivo .gitignore está escrito #.env retire o # e deixe somente .env pra este arquivo não subir pro repositório.

@@ -24,14 +24,14 @@ services:
         environment:
         - MYSQL_ROOT_PASSWORD=root
         - MYSQL_DATABASE=root
-    app:
-        image: phpmyadmin/phpmyadmin:latest
-        container_name: phpmyadmin # Apelido para o container
-        links:
-        - db
-        ports:
-        - 8080:80
-        environment:
-        - PMA_ARBITRARY=1    
+    # app:
+    #     image: phpmyadmin/phpmyadmin:latest
+    #     container_name: phpmyadmin # Apelido para o container
+    #     links:
+    #     - db
+    #     ports:
+    #     - 8080:80
+    #     environment:
+    #     - PMA_ARBITRARY=1    
 volumes:
   data:
