@@ -1,4 +1,4 @@
-# basedockerphp
+# BASE DOCKER DOCKER-COMPOSE
 Base docker e docker-compose para aplicações em php 7.4
 
 # ATENÇÃO!
